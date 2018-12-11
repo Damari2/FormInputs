@@ -14,3 +14,8 @@ def process_inputs():
     freeform = request.form.get('input_freeform', '')
     return render_template("main_page.html", input_data=dropdown,
                            output="You're a wizard %s." % name)
+
+# Tasks
+#get name from form
+#edit options in HTML to school subject
+#change Example textarea to tutor
